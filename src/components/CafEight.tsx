@@ -1,5 +1,14 @@
 import { Link } from 'react-router-dom';
 import FooterLinks from './FooterLinks';
+import cafe_1 from '../assets/cafeight/cafeight_5.png';
+import cafe_2 from '../assets/cafeight/cafeight_11.png';
+import cafe_3 from '../assets/cafeight/cafeight_12.png';
+import cafe_4 from '../assets/cafeight/cafeight_1.png';
+import cafe_5 from '../assets/cafeight/cafeight_2.png';
+import cafe_6 from '../assets/cafeight/cafeight_3.png';
+import cafe_7 from '../assets/cafeight/cafeight_4.png';
+import rx7_T from '../assets/thumbnails/rx7_t.png';
+import ingen_T from '../assets/thumbnails/ingen_t.png';
 import '../ProjectsBlog.css';
 
 function CafEight() {
@@ -13,7 +22,7 @@ function CafEight() {
           <p>
           The times on the pandemic were pretty rough. With classes having been switched to online, lockdowns enforced everywhere, you're stuck in your house with nowhere to go. At this point in time, I was starting to miss out hanging with my friends during our breaktime at the cafeteria.
           </p>
-          <img src={`src/assets/cafeight/cafeight_5.png`} alt="" />
+          <img src={cafe_1} alt="" />
         </div>
         <div>
           <h2>Planning</h2>
@@ -38,17 +47,17 @@ function CafEight() {
         <div>
           <h2>Modelling</h2>
           <p>This is where my background on LinkedIn has come from. I was so pleased with my calculator model that I decided to do a close-up shot of it and make it as a background.</p>
-          <img src={`src/assets/cafeight/cafeight_11.png`} alt="" />
+          <img src={cafe_2} alt="" />
           <p>I really liked how my Graham Mango Shake turned out. 🥤 It looks amazing close-up with all the graham bits on top.</p>
-          <img src={`src/assets/cafeight/cafeight_12.png`} alt="" />
+          <img src={cafe_3} alt="" />
         </div>
         <div>
           <h2>Rendering</h2>
-          <img src={`src/assets/cafeight/cafeight_1.png`} alt="" />
-          <img src={`src/assets/cafeight/cafeight_2.png`} alt="" />
-          <img src={`src/assets/cafeight/cafeight_3.png`} alt="" />
-          <img src={`src/assets/cafeight/cafeight_4.png`} alt="" />
-          <img src={`src/assets/cafeight/cafeight_5.png`} alt="" />
+          <img src={cafe_4} alt="" />
+          <img src={cafe_5} alt="" />
+          <img src={cafe_6} alt="" />
+          <img src={cafe_7} alt="" />
+          <img src={cafe_1} alt="" />
         </div>
       </div>
       <div className='mw700c'>
@@ -57,10 +66,10 @@ function CafEight() {
       </div>
       <div className='mw1200'>
         <div className='flexrcf'>
-          <Link to={`/${'rx7-fd'}`}>  
+          <Link to={`/lrxs-web/${'rx7-fd'}`}>  
           <div className="project-card-footer">
             <div>
-              <img src={`src/assets/${'rx7_t.png'}`} alt="" />
+              <img src={rx7_T} alt="" />
             </div>
             <div>
               <h3>{'RX-7 Model'}</h3>
@@ -68,10 +77,10 @@ function CafEight() {
             </div>
           </div>
           </Link>
-          <Link to={`/${'ingen'}`}>
+          <Link to={`/lrxs-web/${'ingen'}`}>
           <div className="project-card-footer">
             <div>
-              <img src={`src/assets/${'ingen_t.png'}`} alt="" />
+              <img src={ingen_T} alt="" />
             </div>
             <div>
               <h3>{'Ingen'}</h3>

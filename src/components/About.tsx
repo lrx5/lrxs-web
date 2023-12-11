@@ -1,5 +1,38 @@
 import { useEffect } from 'react';
 import FooterLinks from './FooterLinks';
+import about_1 from '../assets/about/image v.png';
+import about_2 from '../assets/about/image 77.png';
+import about_3 from '../assets/about/image 81.png';
+import about_4 from '../assets/about/image 79.png';
+import about_5 from '../assets/about/image 86.png';
+import about_6 from '../assets/about/image 91.png';
+import about_7 from '../assets/about/image 90.png';
+import about_8 from '../assets/about/image 83.png';
+import about_9 from '../assets/about/image 78.png';
+import about_10 from '../assets/about/image 103.png';
+
+import about_11 from '../assets/about/image 82.png';
+import about_12 from '../assets/about/image 84.png';
+import about_13 from '../assets/about/image 96.png';
+import about_14 from '../assets/about/image 85.png';
+import about_15 from '../assets/about/image 87.png';
+import about_16 from '../assets/about/image 97.png';
+import about_17 from '../assets/about/image 93.png';
+import about_18 from '../assets/about/image 102.png';
+import about_19 from '../assets/about/image 100.png';
+import about_20 from '../assets/about/image 101.png';
+import about_21 from '../assets/about/image 99.png';
+
+import about_22 from '../assets/about/image 88.png';
+import about_23 from '../assets/about/image 89.png';
+import about_24 from '../assets/about/image 92.png';
+import about_25 from '../assets/about/image 94.png';
+import about_26 from '../assets/about/image 95.png';
+import about_27 from '../assets/about/image 98.png';
+import about_28 from '../assets/about/image 104.png';
+
+import about_S1 from '../assets/about/graph1.svg';
+import about_S2 from '../assets/about/graph1.svg';
 import '../about.css'; // Import the CSS file for styling
 
 const About = () => {
@@ -29,7 +62,7 @@ const About = () => {
       <div className="section">
         <h1 className='hidden'>Welcome!</h1>
         <p className='hidden'>My real name is John, and I go by LRXS.<br />I'm a Computer Engineer graduate who likes computer-based things.<br />Web Dev, Game Dev, 3D Modeller.</p>
-        <img src={`src/assets/about/image v.png`} className='hidden down' alt="" />
+        <img src={about_1} className='hidden down' alt="" />
         <div className='page-number'>
           <p>1/6</p>
         </div>
@@ -40,45 +73,45 @@ const About = () => {
           <h3 className='hidden'>Current Skills</h3>
           <p className='hidden'>These are the things I study and frequently use up to this day.</p>
           <div className='logo-row'>
-            <img src={`src/assets/about/image 77.png`} className='hidden' alt="" />
-            <img src={`src/assets/about/image 81.png`} className='hidden' alt="" />
-            <img src={`src/assets/about/image 79.png`} className='hidden' alt="" />
-            <img src={`src/assets/about/image 86.png`} className='hidden' alt="" />
-            <img src={`src/assets/about/image 91.png`} className='hidden' alt="" />
-            <img src={`src/assets/about/image 90.png`} className='hidden' alt="" />
-            <img src={`src/assets/about/image 83.png`} className='hidden' alt="" />
-            <img src={`src/assets/about/image 78.png`} className='hidden' alt="" />
-            <img src={`src/assets/about/image 103.png`} className='hidden' alt="" />
+            <img src={about_2} className='hidden' alt="" />
+            <img src={about_3} className='hidden' alt="" />
+            <img src={about_4} className='hidden' alt="" />
+            <img src={about_5} className='hidden' alt="" />
+            <img src={about_6} className='hidden' alt="" />
+            <img src={about_7} className='hidden' alt="" />
+            <img src={about_8} className='hidden' alt="" />
+            <img src={about_9} className='hidden' alt="" />
+            <img src={about_10} className='hidden' alt="" />
           </div>
         </div>
         <div>
           <h3 className='hidden'>Revivable Skills</h3>
           <p className='hidden'>Skills that have not been used for 6 months+ that needs a little refresher.</p>
           <div className='logo-row gs-50'>
-            <img src={`src/assets/about/image 82.png`} className='hidden' alt="" />
-            <img src={`src/assets/about/image 84.png`} className='hidden' alt="" />
-            <img src={`src/assets/about/image 96.png`} className='hidden' alt="" />
-            <img src={`src/assets/about/image 85.png`} className='hidden' alt="" />
-            <img src={`src/assets/about/image 87.png`} className='hidden' alt="" />
-            <img src={`src/assets/about/image 97.png`} className='hidden' alt="" />
-            <img src={`src/assets/about/image 93.png`} className='hidden' alt="" />
-            <img src={`src/assets/about/image 102.png`} className='hidden' alt="" />
-            <img src={`src/assets/about/image 100.png`} className='hidden' alt="" />
-            <img src={`src/assets/about/image 101.png`} className='hidden' alt="" />
-            <img src={`src/assets/about/image 99.png`} className='hidden' alt="" />
+            <img src={about_11} className='hidden' alt="" />
+            <img src={about_12} className='hidden' alt="" />
+            <img src={about_13} className='hidden' alt="" />
+            <img src={about_14} className='hidden' alt="" />
+            <img src={about_15} className='hidden' alt="" />
+            <img src={about_16} className='hidden' alt="" />
+            <img src={about_17} className='hidden' alt="" />
+            <img src={about_18} className='hidden' alt="" />
+            <img src={about_19} className='hidden' alt="" />
+            <img src={about_20}className='hidden' alt="" />
+            <img src={about_21} className='hidden' alt="" />
           </div>
         </div>
         <div>
           <h3 className='hidden'>Things that I would love to learn</h3>
           <p className='hidden'>The ones that I haven't touched but would love to learn one day.</p>
           <div className='logo-row gs-100'>
-            <img src={`src/assets/about/image 88.png`} className='hidden' alt="" />
-            <img src={`src/assets/about/image 89.png`} className='hidden' alt="" />
-            <img src={`src/assets/about/image 92.png`} className='hidden' alt="" />
-            <img src={`src/assets/about/image 94.png`} className='hidden' alt="" />
-            <img src={`src/assets/about/image 95.png`} className='hidden' alt="" />
-            <img src={`src/assets/about/image 98.png`} className='hidden' alt="" />
-            <img src={`src/assets/about/image 104.png`} className='hidden' alt="" />
+            <img src={about_22} className='hidden' alt="" />
+            <img src={about_23} className='hidden' alt="" />
+            <img src={about_24} className='hidden' alt="" />
+            <img src={about_25} className='hidden' alt="" />
+            <img src={about_26} className='hidden' alt="" />
+            <img src={about_27} className='hidden' alt="" />
+            <img src={about_28} className='hidden' alt="" />
           </div>
         </div>
         <div className='page-number'>
@@ -89,7 +122,7 @@ const About = () => {
         <h2 className='hidden'>My never-ending interests</h2>
         <div className='flexrc gap-40'>
           <div className='circle-container hidden'>
-            <img src={`src/assets/about/graph1.svg`} className='hidden' alt="SVG1" />
+            <img src={about_S1} className='hidden' alt="SVG1" />
             <div className="circle hidden"></div>
           </div>
           <div className='wave-container hidden'>
@@ -98,7 +131,7 @@ const About = () => {
               <path d="M1 91.9999C19.5 22.9999 85.2738 2.42374 121.5 92.4998C158.5 184.5 223 151 241 92.4998C259.5 23.4998 309.7 -73.1002 362.5 92.4998C415.3 258.1 464 151 482 92.4998" stroke="white" stroke-width="3" stroke-linecap="round" className="path"/>
               </svg>
             </div>
-            <img src={`src/assets/about/graph2.svg`} className='hidden pt-custom1' alt="SVG2" />
+            <img src={about_S2} className='hidden pt-custom1' alt="SVG2" />
           </div>
         </div>
         <div>
