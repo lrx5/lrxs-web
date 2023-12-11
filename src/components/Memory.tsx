@@ -1,5 +1,16 @@
 import { Link } from 'react-router-dom';
 import FooterLinks from './FooterLinks';
+import memory_1 from '../assets/memory/memory_3.png';
+import memory_2 from '../assets/memory/memory_1.png';
+import memory_3 from '../assets/memory/memory_5.png';
+import memory_4 from '../assets/memory/memory_6.png';
+import memory_5 from '../assets/memory/memory_7.png';
+import memory_t1 from '../assets/memory/memory_t1.png';
+import memory_t2 from '../assets/memory/memory_t2.png';
+import memory_t3 from '../assets/memory/memory_t3.png';
+import memory_t4 from '../assets/memory/memory_t4.png';
+import caster_T from '../assets/thumbnails/casterwheel.png';
+import salad_T from '../assets/thumbnails/salad_t.jpg';
 import '../ProjectsBlog.css';
 
 function Memory() {
@@ -11,7 +22,7 @@ function Memory() {
           <h1>Create w/ Clint: Double Memory</h1>
           <h3>Blender • June 2023</h3>
           <p>Hi there! 🤗 I have recently joined Clint's discord server; Create with Clint where you make weekly renders based on a prompt chosen by the higher ups. I thought I could try to make some renders while having fun in Blender. The theme for this week was "Double Memory". I immediately thought of the Playstation 1 🎮 memory cards for saving game data, which also pairs with my memory from childhood playing games in our room at night.</p>
-          <img src={`src/assets/memory/memory_3.png`} alt="" />
+          <img src={memory_1} alt="" />
         </div>
         <div>
           <h2>Planning</h2>
@@ -34,20 +45,20 @@ function Memory() {
         <div>
           <h2>Modelling</h2>
           <p>After listing everything, I started to model the things right away. I opted not to import any models and just create them from scratch to further reinforce my modelling skills. Here's a few individual renders of the objects from the scene:</p>
-          <img src={`src/assets/memory/memory_1.png`} alt="" />
-          <img src={`src/assets/memory/memory_5.png`} alt="" />
-          <img src={`src/assets/memory/memory_6.png`} alt="" />
-          <img src={`src/assets/memory/memory_7.png`} alt="" />
+          <img src={memory_2} alt="" />
+          <img src={memory_3} alt="" />
+          <img src={memory_4} alt="" />
+          <img src={memory_5} alt="" />
         </div>
         <div>
           <h2>Rendering</h2>
           <p>I like to render new frames after adding a couple of new models into the scene just to see what my current progress is like.
           </p>
-          <img src={`src/assets/memory/memory_t1.png`} alt="" />
-          <img src={`src/assets/memory/memory_t2.png`} alt="" />
-          <img src={`src/assets/memory/memory_t3.png`} alt="" />
-          <img src={`src/assets/memory/memory_t4.png`} alt="" />
-          <img src={`src/assets/memory/memory_3.png`} alt="" />
+          <img src={memory_t1} alt="" />
+          <img src={memory_t2} alt="" />
+          <img src={memory_t3} alt="" />
+          <img src={memory_t4} alt="" />
+          <img src={memory_1} alt="" />
         </div>
         <div>
           <h2>Final Thoughts</h2>
@@ -60,10 +71,10 @@ function Memory() {
       </div>
       <div className='mw1200'>
         <div className='flexrcf'>
-          <Link to={`/${'caster-wheel'}`}>  
+          <Link to={`/lrxs-web/${'caster-wheel'}`}>  
           <div className="project-card-footer">
             <div>
-              <img src={`src/assets/${'casterwheel.png'}`} alt="" />
+              <img src={caster_T} alt="" />
             </div>
             <div>
               <h3>{'Caster Wheel'}</h3>
@@ -71,10 +82,10 @@ function Memory() {
             </div>
           </div>
           </Link>
-          <Link to={`/${'salad-kitchen'}`}>
+          <Link to={`/lrxs-web/${'salad-kitchen'}`}>
           <div className="project-card-footer">
             <div>
-              <img src={`src/assets/${'salad_t.jpg'}`} alt="" />
+              <img src={salad_T} alt="" />
             </div>
             <div>
               <h3>{'Salad Kitchen'}</h3>

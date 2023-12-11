@@ -1,5 +1,10 @@
 import { Link } from 'react-router-dom';
 import FooterLinks from './FooterLinks';
+import caster_1 from '../assets/casterwheel/caster9.png';
+import caster_2 from '../assets/casterwheel/caster10.png';
+import caster_3 from '../assets/casterwheel/caster11.png';
+import salad_T from '../assets/thumbnails/salad_t.jpg';
+import king_T from '../assets/thumbnails/kingtiger_t.png';
 import '../ProjectsBlog.css';
 import Spline from '@splinetool/react-spline';
 
@@ -12,7 +17,7 @@ function Caster() {
           <h1>Caster Wheel</h1>
           <h3>Blender • May 2023</h3>
           <p>Hi there! 👋 I tried to make a realistic 3D Caster wheel sample as a project submission based job application.</p>
-          <img src={`src/assets/casterwheel/caster9.png`} alt="" />
+          <img src={caster_1} alt="" />
         </div>
         <div className='spline'>
           <h2>Clay Model</h2>
@@ -25,9 +30,9 @@ function Caster() {
         </div>
         <div>
           <h2>Rendering</h2>
-          <img src={`src/assets/casterwheel/caster9.png`} alt="" />
-          <img src={`src/assets/casterwheel/caster10.png`} alt="" />
-          <img src={`src/assets/casterwheel/caster11.png`} alt="" />
+          <img src={caster_1} alt="" />
+          <img src={caster_2} alt="" />
+          <img src={caster_3} alt="" />
         </div>
         <div>
           <h2>Final Thoughts</h2>
@@ -40,10 +45,10 @@ function Caster() {
       </div>
       <div className='mw1200'>
         <div className='flexrcf'>
-          <Link to={`/${'salad-kitchen'}`}>
+          <Link to={`/lrxs-web/${'salad-kitchen'}`}>
           <div className="project-card-footer">
             <div>
-              <img src={`src/assets/${'salad_t.jpg'}`} alt="" />
+              <img src={salad_T} alt="" />
             </div>
             <div>
               <h3>{'Salad Kitchen'}</h3>
@@ -51,10 +56,10 @@ function Caster() {
             </div>
           </div>
           </Link>
-          <Link to={`/${'king-tiger'}`}>  
+          <Link to={`/lrxs-web/${'king-tiger'}`}>  
           <div className="project-card-footer">
             <div>
-              <img src={`src/assets/${'kingtiger_t.png'}`} alt="" />
+              <img src={king_T} alt="" />
             </div>
             <div>
               <h3>{'King Tiger'}</h3>
