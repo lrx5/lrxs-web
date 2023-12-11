@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import '../ProjectsBlog.css';
 import ingen_1 from '../assets/ingen/ingen_1.png';
 import ingen_2 from '../assets/ingen/ingen_6.png';
-import ingen_3 from '../assets/ingen/ingen_11.png';
+import ingen_3 from '../assets/ingen/Ingen_11.png';
 import ingen_4 from '../assets/ingen/ingen_12.png';
 import ingen_5 from '../assets/ingen/ingen_2.png';
 import ingen_6 from '../assets/ingen/ingen_3.png';
