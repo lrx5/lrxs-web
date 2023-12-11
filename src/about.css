@@ -141,6 +141,13 @@
   align-content: center;
   align-items: center;
 }
+.flexrc2cc{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
 .flexrs{
   display: flex;
   flex-direction: row;
@@ -185,7 +192,9 @@
   right: 0;
   bottom: 210px;
   filter: invert(50%) sepia(9%) saturate(11%) hue-rotate(324deg) brightness(98%) contrast(89%) opacity(10%);
-
+}
+.wave-container{
+  width: auto;
 }
 @keyframes rgbColorSvg{
   0% {filter: invert(65%) sepia(17%) saturate(5132%) hue-rotate(181deg) brightness(92%) contrast(89%);}
@@ -290,5 +299,81 @@
   }
   100% {
     stroke-dashoffset: 0;
+  }
+}
+@media screen and (max-width: 800px) {
+  .about h1{
+    margin-bottom: 64px;
+    font-size: 64px;
+    animation: rgbColorSvg 6s linear infinite;
+  }
+  .about h2{
+    margin-bottom: 64px;
+    font-size: 32px;
+  }
+  .about h3{
+    font-size: 24px;
+  }
+  .about h4{
+    font-size: 24px;
+  }
+  .flexrc2cc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  .flexrc2cc img{
+    width: 50%;
+  }
+  .circle{
+    width: 11px;
+    height: 11px;
+  }
+  .wave{
+    position: absolute;
+    top: 5px;
+    left: 60px;
+    z-index: 10;
+    pointer-events: none;
+  }
+  .wave svg{
+    width: 50%;
+  }
+  .about .logo-row img{
+    height: 70%;
+    width: 70%;
+  }
+  @keyframes moveOnly{
+    0% {
+      top: 36px;
+      left: 151px;
+    }
+    25% {
+      top: 81px;
+      left: 196px;
+    }
+    50% {
+      top: 60px;
+      left: 250px;
+    }
+    75% {
+      top: 81px;
+      left: 196px;
+    }
+    100% {
+      top: 36px;
+      left: 151px;
+    }
+  }
+  .about .logo-row{
+    width: auto;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 0;
   }
 }

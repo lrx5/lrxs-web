@@ -32,7 +32,7 @@ import about_27 from '../assets/about/image 98.png';
 import about_28 from '../assets/about/image 104.png';
 
 import about_S1 from '../assets/about/graph1.svg';
-import about_S2 from '../assets/about/graph1.svg';
+import about_S2 from '../assets/about/graph2.svg';
 import '../about.css'; // Import the CSS file for styling
 
 const About = () => {
@@ -69,7 +69,7 @@ const About = () => {
       </div>
       <div className="section">
         <h2 className='hidden customrgb'>Remember that unused tools degrade over time</h2>
-        <div>
+        <div className=''>
           <h3 className='hidden'>Current Skills</h3>
           <p className='hidden'>These are the things I study and frequently use up to this day.</p>
           <div className='logo-row'>
@@ -120,7 +120,7 @@ const About = () => {
       </div>
       <div className="section">
         <h2 className='hidden'>My never-ending interests</h2>
-        <div className='flexrc gap-40'>
+        <div className='flexrc2cc gap-40'>
           <div className='circle-container hidden'>
             <img src={about_S1} className='hidden' alt="SVG1" />
             <div className="circle hidden"></div>

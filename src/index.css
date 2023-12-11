@@ -18,6 +18,9 @@
   width: 100%;
   text-align: center;
 }
+.z0{
+  z-index: 0;
+}
 a {
   font-weight: 500;
   color: #646cff;
@@ -76,3 +79,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+

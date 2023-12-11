@@ -6,7 +6,7 @@ function Nav() {
     <>
       <nav>
         <div>
-        <Link className='lrxs' to="/">LRXS v0.4</Link>
+        <Link className='lrxs' to="/">LRXS</Link>
           <ul>
             <li><Link to="/lrxs-web/" >Home</Link></li>
             <li><Link to="/lrxs-web/about">About</Link></li>

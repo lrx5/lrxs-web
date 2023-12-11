@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop.tsx';
 import Nav from './components/Nav.tsx';
+import NavMobile from './components/NavMobile.tsx';
 import HomePage from './components/HomePage.tsx';
 import About from './components/About.tsx';
 import Contact from './components/Contact.tsx';
@@ -27,6 +28,7 @@ ReactDOM.render(
     <BrowserRouter>
       <ScrollToTop />
       <Nav />
+      <NavMobile />
       <Routes>
         <Route path="/lrxs-web/" element={<HomePage />} />
         <Route path="/lrxs-web/about" element={<About />} />

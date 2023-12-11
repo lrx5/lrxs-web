@@ -25,7 +25,7 @@ const Contact = () => {
   }, []); // Empty dependency array ensures this effect runs only once
 
   return (
-    <div className='fullpage about'>
+    <div className='fullpage about pt-96'>
       <div className="section">
         <h2 className='hidden_y'>I would love to <span className='customrgb'>work</span> with you!</h2>
         <h3 className='hidden_y'>Send me an email</h3>
