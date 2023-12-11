@@ -11,6 +11,7 @@ import mystery_T from './assets/mw_t.jpg';
 import cafe_T from './assets/cafeight_t.png';
 import rx7_T from './assets/rx7_t.png';
 import ingen_T from './assets/ingen_t.png';
+/*lowecase png*/
 interface Project {
   id: number;
   file: string;
