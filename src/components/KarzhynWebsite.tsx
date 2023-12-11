@@ -1,5 +1,20 @@
 import { Link } from 'react-router-dom';
 import FooterLinks from './FooterLinks';
+import karzhyn_1 from '../assets/karzhyn/karzhyn_1.png';
+import karzhyn_2 from '../assets/karzhyn/karzhyn_2.png';
+import karzhyn_3 from '../assets/karzhyn/karzhyn_3.png';
+import karzhyn_4 from '../assets/karzhyn/karzhyn_11.png';
+import karzhyn_5 from '../assets/karzhyn/karzhyn_12.png';
+import karzhyn_6 from '../assets/karzhyn/karzhyn_21.png';
+import karzhyn_7 from '../assets/karzhyn/karzhyn_24.png';
+import karzhyn_V1 from '../assets/karzhyn/karzhyn_v2.mp4';
+import karzhyn_V2 from '../assets/karzhyn/karzhyn_v1.mp4';
+import karzhyn_8 from '../assets/karzhyn/karzhyn_31.png';
+import karzhyn_V3 from '../assets/karzhyn/karzhyn_v3.mp4';
+import karzhyn_9 from '../assets/karzhyn/karzhyn_22.png';
+import karzhyn_10 from '../assets/karzhyn/karzhyn_23.png';
+import friends_T from '../assets/thumbnails/friendslistv_t.png';
+import memory_T from '../assets/thumbnails/memory_t.png';
 import '../ProjectsBlog.css';
 import '../Projects.css';
 
@@ -19,34 +34,34 @@ function KarzhynWebsite() {
         <div>
           <h2>Karzhyn Branding</h2>
           <p>Karzhyn's brand features multiple bright colors that represents the business' nature for creativity and flexibility. The vibe just looks bright and fun and I just had to make something out of it.</p>
-          <img src={`src/assets/karzhyn_1.png`} alt="" />
-          <img src={`src/assets/karzhyn_2.png`} alt="" />
-          <img src={`src/assets/karzhyn_3.png`} alt="" />
+          <img src={karzhyn_1} alt="" />
+          <img src={karzhyn_2} alt="" />
+          <img src={karzhyn_3} alt="" />
         </div>
         <div>
           <h2>Pages Preview</h2>
           <p>There are a total of 7 pages, including the confirmation of sending the email form. </p>
-          <img src={`src/assets/karzhyn_11.png`} alt="" />
+          <img src={karzhyn_4} alt="" />
           <p>Here's a couple of screenshots 📸
             when viewing the actual website.</p>
-          <img src={`src/assets/karzhyn_12.png`} alt="" />
-          <img src={`src/assets/karzhyn_21.png`} alt="" />
-          <img src={`src/assets/karzhyn_24.png`} alt="" />
+          <img src={karzhyn_5} alt="" />
+          <img src={karzhyn_6} alt="" />
+          <img src={karzhyn_7} alt="" />
         </div>
         <div>
           <h2>3D Animations</h2>
           <p>I 3D modeled the aluminum bottles that were included in Karzhyn, set up a scene and rendered a few still images to use in the video.</p>
           <video autoPlay loop muted>
-            <source src={'src/assets/karzhyn_v2.mp4'} type='video/mp4' />
+            <source src={karzhyn_V1} type='video/mp4' />
             Your browser does not support the video tag.
           </video>
           <p>I also animated a total of four 3-second renders in Blender. The first video is composed of showcasing Karzhyn as a brand, introducing the potential creative works that the company's services provides. Here is my favorite out of the four. 🤗</p>
           <video autoPlay loop muted>
-            <source src={'src/assets/karzhyn_v1.mp4'} type='video/mp4' />
+            <source src={karzhyn_V2} type='video/mp4' />
             Your browser does not support the video tag.
           </video>
           <p>Behind the scenes. It almost looks like a huge animation studio. 📽️ The animations for the main hero video was all done here in this single scene.</p>
-          <img src={`src/assets/karzhyn_31.png`} alt="" />
+          <img src={karzhyn_8} alt="" />
         </div>
         <div>
           <h2>Challenges</h2>
@@ -55,13 +70,13 @@ function KarzhynWebsite() {
           <p>The first one is whether I should follow the <span>60-30-10</span> rule or not. This brand has <span>5</span> primary colors which is a lot. Having all of them present in a single page might be distracting to the users so I opted to make it simple, sticking to the rule and used Electric Purple as the main color of the page.</p>
           <p>I only used all the colors when hovering the nav and changed the color of the text accordingly to improve the visibility contrast.</p>
           <video autoPlay loop muted>
-            <source src={'src/assets/karzhyn_v3.mp4'} type='video/mp4' />
+            <source src={karzhyn_V3} type='video/mp4' />
             Your browser does not support the video tag.
           </video>
           <h2>Forms Functionality</h2>
           <p>I also have limited experience with back-end code. In order to make the forms work, I used a cloud-based service called EmailJS to handle sending emails with ease. </p>
-          <img src={`src/assets/karzhyn_22.png`} alt="" />
-          <img src={`src/assets/karzhyn_23.png`} alt="" />
+          <img src={karzhyn_9} alt="" />
+          <img src={karzhyn_10} alt="" />
           <h2>No Components</h2>
           <p>Having started to learn React in creating this personal website, LRXS, components are a huge time saver. Before, I was painstakingly updating the footer on Karzhyn Website one by one manually after altering its design, or changing the content of the other pages. Maybe it's just my bad habit of working on all parts simultaneously, but without components I just had a hard time making my work efficiently as possible.</p>
         </div>
@@ -77,10 +92,10 @@ function KarzhynWebsite() {
       </div>
       <div className='mw1200'>
         <div className='flexrcf'>
-          <Link to={`/${'friends-list-website'}`}>  
+          <Link to={`/lrxs-web/${'friends-list-website'}`}>  
           <div className="project-card-footer">
             <div>
-              <img src={`src/assets/${'friendslistv_t.png'}`} alt="" />
+              <img src={friends_T} alt="" />
             </div>
             <div>
               <h3>{'Friends List Website'}</h3>
@@ -88,10 +103,10 @@ function KarzhynWebsite() {
             </div>
           </div>
           </Link>
-          <Link to={`/${'create-with-clint-double-memory'}`}>
+          <Link to={`/lrxs-web/${'create-with-clint-double-memory'}`}>
           <div className="project-card-footer">
             <div>
-              <img src={`src/assets/${'memory_t.png'}`} alt="" />
+              <img src={memory_T} alt="" />
             </div>
             <div>
               <h3>{'Memory'}</h3>
