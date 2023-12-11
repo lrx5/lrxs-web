@@ -1,5 +1,5 @@
 import Hero from './Hero';
-import Projects from '../../public/thumbnails/Projects';
+import Projects from './Projects';
 import '../Projects.css';
 import FooterLinks from './FooterLinks';
 
