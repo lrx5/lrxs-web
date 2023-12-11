@@ -8,9 +8,9 @@ function Nav() {
         <div>
         <Link className='lrxs' to="/">LRXS v0.4</Link>
           <ul>
-            <li><Link to="/" >Home</Link></li>
-            <li><Link to="/about">About</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/lrxs-web/" >Home</Link></li>
+            <li><Link to="/lrxs-web/about">About</Link></li>
+            <li><Link to="/lrxs-web/contact">Contact</Link></li>
           </ul>
         </div>
       </nav>

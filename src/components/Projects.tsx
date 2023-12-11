@@ -1,16 +1,16 @@
 import { Link } from 'react-router-dom';
 import '../Projects.css';
-import karzhyn_T from '/thumbnails/karzhyn_t.png';
-import friends_T from '/thumbnails/friendslistv_t.png';
-import memory_T from '/thumbnails/memory_t.png';
-import caster_T from '/thumbnails/casterwheel.png';
-import salad_T from '/thumbnails/salad_t.jpg';
-import king_T from '/thumbnails/kingtiger_t.png';
-import start_T from '/thumbnails/startup_t.png';
-import mystery_T from '/thumbnails/mw_t.jpg';
-import cafe_T from '/thumbnails/cafeight_t.png';
-import rx7_T from '/thumbnails/rx7_t.png';
-import ingen_T from '/thumbnails/ingen_t.png';
+import karzhyn_T from '../assets/thumbnails/karzhyn_t.png';
+import friends_T from '../assets/thumbnails/friendslistv_t.png';
+import memory_T from '../assets/thumbnails/memory_t.png';
+import caster_T from '../assets/thumbnails/casterwheel.png';
+import salad_T from '../assets/thumbnails/salad_t.jpg';
+import king_T from '../assets/thumbnails/kingtiger_t.png';
+import start_T from '../assets/thumbnails/startup_t.png';
+import mystery_T from '../assets/thumbnails/mw_t.jpg';
+import cafe_T from '../assets/thumbnails/cafeight_t.png';
+import rx7_T from '../assets/thumbnails/rx7_t.png';
+import ingen_T from '../assets/thumbnails/ingen_t.png';
 /*lowecase png*/
 interface Project {
   id: number;
