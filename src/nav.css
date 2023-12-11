@@ -32,7 +32,19 @@
 nav{
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  margin-bottom: 32px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background-color: #121212;
+}
+nav > div{
+  display: flex;
   justify-content: space-between;
+  width: 100%;
+  padding: 0 15%;
 }
 ul{
   display: flex;
@@ -59,31 +71,9 @@ li a{
 .lrxs p{
   margin: 0;
 }
-.td-1{
-  transition: all 1s;
-  transition-delay: 5s;
-}
-.td-2{
-  transition-delay: 1s;
-}
-.td-3{
-  transition-delay: 1.5s;
-}
-.td-4{
-  transition-delay: 2s;
-}
-.td-5{
-  transition-delay: 2.5s;
-}
-.td-6{
-  transition-delay: 3s;
-}
-.td-7{
-  transition-delay: 3.5s;
-}
-.td-8{
-  transition-delay: 4s;
-}
-.td-9{
-  transition-delay: 4.5s;
+
+@media screen and (max-width: 800px) {
+    nav{
+      display: none;
+    }
 }

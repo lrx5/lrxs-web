@@ -1,0 +1,71 @@
+.projects-grid{
+    padding-top: 32px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 2fr));
+    gap: 40px;
+    padding: 64px 15%;
+}
+.project-card{
+    border: 1px solid #121212;
+    border-radius: 25px;
+    width: 100%;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in-out forwards;
+    transition: opacity 0.5s ease-in-out;
+}
+.project-card div:first-child{
+    height: 300px;
+    overflow: hidden;
+}
+.project-card div:nth-child(2){
+    padding: 20px;
+    overflow: hidden;
+}
+.project-card img{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    overflow: hidden;
+    filter: grayscale(100%);
+    transform: scale(1);
+    transition: transform 0.3s, filter 0.3s;
+}
+.project-card img:hover{
+    transform: scale(1.1);
+    filter: none;
+}
+.project-card h3, .project-card p{
+    text-decoration: none;
+    color:#ccc;
+}
+.mw700 {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mw700 p{
+    text-align: start;
+}
+.mw700 img{
+    width: 100%;
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(50px); /* Initial position for fade in from bottom */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); /* Final position */
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .projects-grid{
+      padding: 0 5%;
+    }
+}

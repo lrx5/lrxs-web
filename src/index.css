@@ -5,14 +5,19 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #121212;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
 
+  overflow: auto;
+}
+#root {
+  width: 100%;
+  text-align: center;
+}
 a {
   font-weight: 500;
   color: #646cff;
@@ -27,7 +32,6 @@ body {
   display: flex;
   place-items: center;
   min-width: 320px;
-  min-height: 100vh;
 }
 
 h1 {
@@ -53,7 +57,13 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-
+.pt-96{
+  padding-top: 96px;
+}
+.spline{
+  width: 100%;
+  border-radius: 15px;
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
