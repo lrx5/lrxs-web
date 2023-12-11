@@ -9,7 +9,7 @@ import friends_V1 from '../assets/friendslist/friendslist_v1.mp4';
 import memory_T from '../assets/thumbnails/memory_t.png';
 import caster_T from '../assets/thumbnails/casterwheel.png';
 import '../ProjectsBlog.css';
-
+/*lowercase change*/
 function FriendsList() {
 
   return (
