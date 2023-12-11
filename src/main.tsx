@@ -18,9 +18,9 @@ import CafEight from './components/CafEight.tsx';
 import MysteryWord from './components/MysteryWord.tsx';
 import Rx7 from './components/Rx7.tsx';
 import Ingen from './components/Ingen.tsx';
-import '/styles/index.css';
-import '/styles/Projects.css';
-import '/styles/ProjectsBlog.css';
+import './index.css';
+import './Projects.css';
+import './ProjectsBlog.css';
 
 ReactDOM.render(
   <React.StrictMode>

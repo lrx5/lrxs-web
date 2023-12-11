@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import '/styles/Projects.css';
+import './Projects.css';
 import karzhyn_T from '/thumbnails/karzhyn_t.png';
 import friends_T from '/thumbnails/friendslistv_t.png';
 import memory_T from '/thumbnails/memory_t.png';
