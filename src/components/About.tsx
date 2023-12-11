@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import FooterLinks from './FooterLinks';
+import profile_img from '../assets/about/profile_img.png';
 import about_1 from '../assets/about/image v.png';
 import about_2 from '../assets/about/image 77.png';
 import about_3 from '../assets/about/image 81.png';
@@ -61,7 +62,8 @@ const About = () => {
     <div className='fullpage about'>
       <div className="section">
         <h1 className='hidden'>Welcome!</h1>
-        <p className='hidden'>My real name is John, and I go by LRXS.<br />I'm a Computer Engineer graduate who likes computer-based things.<br />Web Dev, Game Dev, 3D Modeller.</p>
+        <img className='profile-photo hidden' src={profile_img} alt="" />
+        <p className='hidden'>My real name is John, and I go by LRXS.<br />I'm a Computer Engineer who likes computer-based things.<br />Web Dev, Game Dev, 3D Modeller.</p>
         <img src={about_1} className='hidden down' alt="" />
         <div className='page-number'>
           <p>1/6</p>
