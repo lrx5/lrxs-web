@@ -11,7 +11,7 @@ import ingen_8 from '../assets/ingen/ingen_5.png';
 import karzhyn_T from '../assets/thumbnails/karzhyn_t.png';
 import friends_T from '../assets/thumbnails/friendslistv_t.png';
 import FooterLinks from './FooterLinks';
-
+/*update*/
 function Ingen() {
 
   return (
