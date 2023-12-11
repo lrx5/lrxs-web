@@ -1,5 +1,13 @@
 import { Link } from 'react-router-dom';
 import FooterLinks from './FooterLinks';
+import friends_1 from '../assets/friendslist/friendslist_2.png';
+import friends_2 from '../assets/friendslist/friendslist_4.png';
+import friends_3 from '../assets/friendslist/friendslist_3.png';
+import friends_4 from '../assets/friendslist/friendslist_c1.png';
+import heart_svg from '../assets/friendslist/mdi_heart.svg';
+import friends_V1 from '../assets/friendslist/friendslist_v1.mp4';
+import memory_T from '../assets/thumbnails/memory_t.png';
+import caster_T from '../assets/thumbnails/casterwheel.png';
 import '../ProjectsBlog.css';
 
 function FriendsList() {
@@ -16,14 +24,14 @@ function FriendsList() {
         <div>
           <h2>Backstory</h2>
           <p>My love for Stardew Valley has been reborn after my fsriend decided to play with me for a couple of days. <i>Well technically, I gifted the game and was kinda forced to play with me.</i> 😅 But anyways, I have played this game before, and can say that I am pretty experienced when it comes to farming and forging bonds with the villagers.</p>
-          <img src={`src/assets/friendslist/friendslist_2.png`} alt="" />
+          <img src={friends_1} alt="" />
         </div>
         <div>
           <h2>Game Heart Meters</h2>
           <p>I have played a lot of Harvest Moon back in the days and I love the relationship mechanic to the townspeople and the bachelors/bachelorettes, it really felt like you were building a real connection with them, with their own characters and personality.</p>
-          <img src={`src/assets/friendslist/friendslist_4.png`} alt="" />
+          <img src={friends_2} alt="" />
           <p>It's the same in Stardew Valley, you can talk to them or give them gifts to increase your relationship with them. <i>If they like the gift, that is.</i> The great thing here is you can track how well you are doing with each of the character's heart meters. Unlike in Harvest Moon, one can only see the hearts on bachelors/bachelorettes.</p>
-          <img src={`src/assets/friendslist/friendslist_3.png`} alt="" />
+          <img src={friends_3} alt="" />
           <p>After a while, I thought of a good idea of making my own heart meter list website featuring my own friends. A win-win situation where I increase my website building skills while showing my friends that I appreciate them and treasure them dearly.</p>
         </div>
         <div>
@@ -33,22 +41,22 @@ function FriendsList() {
         </div>
         <div className="flcard glass">
           <div className="flcard-content1">
-            <img className="main-img" src={`src/assets/friendslist/friendslist_c1.png`}/>
+            <img className="main-img" src={friends_4}/>
           </div>
           <div className="flcard-content2">
             <h2>Lraxious</h2>
             <p>I like an ice-cold Grande Sized Watermelon flavored Zagu with Extra Boba Pearls on a hot and sunny day.</p>
             <div className="heart-meter">
-              <img className="rgb-heart" src={`src/assets/friendslist/mdi_heart.svg`} />
-              <img className="rgb-heart" src={`src/assets/friendslist/mdi_heart.svg`} />
-              <img className="rgb-heart" src={`src/assets/friendslist/mdi_heart.svg`} />
-              <img className="rgb-heart" src={`src/assets/friendslist/mdi_heart.svg`} />
-              <img className="rgb-heart" src={`src/assets/friendslist/mdi_heart.svg`} />
-              <img className="rgb-heart" src={`src/assets/friendslist/mdi_heart.svg`} />
-              <img className="rgb-heart" src={`src/assets/friendslist/mdi_heart.svg`} />
-              <img className="rgb-heart" src={`src/assets/friendslist/mdi_heart.svg`} />
-              <img className="rgb-heart" src={`src/assets/friendslist/mdi_heart.svg`} />
-              <img className="rgb-heart" src={`src/assets/friendslist/mdi_heart.svg`} />
+              <img className="rgb-heart" src={heart_svg} />
+              <img className="rgb-heart" src={heart_svg} />
+              <img className="rgb-heart" src={heart_svg} />
+              <img className="rgb-heart" src={heart_svg} />
+              <img className="rgb-heart" src={heart_svg} />
+              <img className="rgb-heart" src={heart_svg} />
+              <img className="rgb-heart" src={heart_svg} />
+              <img className="rgb-heart" src={heart_svg} />
+              <img className="rgb-heart" src={heart_svg} />
+              <img className="rgb-heart" src={heart_svg} />
             </div>
           </div>
         </div>
@@ -56,7 +64,7 @@ function FriendsList() {
           <h2>Order Buttons</h2>
           <p>I also implemented sorter buttons where it would change the orders based on the heart values and recent friends just to test my new Javascript skills out. I have to admit in consulting ChatGPT quite a bit just to confirm for any flaws in my code.</p>
           <video autoPlay loop muted>
-            <source src={'src/assets/friendslist/friendslist_v1.mp4'} type='video/mp4' />
+            <source src={friends_V1} type='video/mp4' />
             Your browser does not support the video tag.
           </video>
         </div>
@@ -72,10 +80,10 @@ function FriendsList() {
       </div>
       <div className='mw1200'>
         <div className='flexrcf'>
-          <Link to={`/${'create-with-clint-double-memory'}`}>
+          <Link to={`/lrxs-web/${'create-with-clint-double-memory'}`}>
           <div className="project-card-footer">
             <div>
-              <img src={`src/assets/${'memory_t.png'}`} alt="" />
+              <img src={memory_T} alt="" />
             </div>
             <div>
               <h3>{'Memory'}</h3>
@@ -83,10 +91,10 @@ function FriendsList() {
             </div>
           </div>
           </Link>
-          <Link to={`/${'caster-wheel'}`}>  
+          <Link to={`/lrxs-web/${'caster-wheel'}`}>  
           <div className="project-card-footer">
             <div>
-              <img src={`src/assets/${'casterwheel.png'}`} alt="" />
+              <img src={caster_T} alt="" />
             </div>
             <div>
               <h3>{'Caster Wheel'}</h3>
