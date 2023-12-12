@@ -28,6 +28,7 @@ function Salad() {
           <h2>Planning</h2>
           <p>Salad is a crypto mining application where they show the process of mining as chopping, like in a kitchen. So I decided to just make the wallpaper a kitchen involving all the fruits and vegetables as the things to be mined.</p> 
           <img src={salad_2} alt="" />
+          <figcaption>Contemporary counter @ Case furniture</figcaption>
           <p>I got inspired by this particular contemporary counter from casefurniture and started to make a table from that idea.</p>
         </div>
         <div>

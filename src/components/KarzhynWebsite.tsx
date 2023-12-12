@@ -37,6 +37,7 @@ function KarzhynWebsite() {
           <img src={karzhyn_1} alt="" />
           <img src={karzhyn_2} alt="" />
           <img src={karzhyn_3} alt="" />
+          <figcaption>Selected screenshots from Karzhyn Media Brand Guidelines</figcaption>
         </div>
         <div>
           <h2>Pages Preview</h2>
@@ -47,6 +48,7 @@ function KarzhynWebsite() {
           <img src={karzhyn_5} alt="" />
           <img src={karzhyn_6} alt="" />
           <img src={karzhyn_7} alt="" />
+          <figcaption>@ Karzhyn Media website</figcaption>
         </div>
         <div>
           <h2>3D Animations</h2>
@@ -62,6 +64,7 @@ function KarzhynWebsite() {
           </video>
           <p>Behind the scenes. It almost looks like a huge animation studio. 📽️ The animations for the main hero video was all done here in this single scene.</p>
           <img src={karzhyn_8} alt="" />
+          <figcaption>My Blender scene</figcaption>
         </div>
         <div>
           <h2>Challenges</h2>

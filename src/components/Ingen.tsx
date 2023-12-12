@@ -28,6 +28,7 @@ function Ingen() {
           <h2>Planning</h2>
           <p>Since the place is gone now, I have no way of getting real references by going there in person. I had to resort to scavenging any photo of the place online. By some miracle, I found a great shot of the place which covers a wide area to get my bearings around the scene.</p>
           <img src={ingen_2} alt="" />
+          <figcaption>Center Aisle Photo @ Ingen</figcaption>
           <p>I also found their brand logo. I used this as a sign outside the glass windows of the establishment.</p>
           <img src={ingen_3} alt="" />
           <p>I tried going to the website link on that logo and what do you know, it still works. Although its pretty much abandoned now. 💀</p>

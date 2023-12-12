@@ -35,15 +35,19 @@ function KingTiger() {
             <source src={king_V1} type='video/mp4' />
             Your browser does not support the video tag.
           </video>
+          <figcaption>My WoT gameplay</figcaption>
           <p>After seeing realistic artworks from the game's loading page and its real world photographs, it gave me the motivation to create an artwork out of my favorite tank, the Tiger II or the King Tiger. This image right here is where I took a lot of inspiration in the story of a lone Tiger II defending Budapest.</p>
-          <img src={king_2} alt="" />
+          <img src={king_2} alt="King Tiger" />
+          <figcaption>King Tiger at Budapest</figcaption>
         </div>
         <div>
           <h2>Modelling</h2>
           <p>Modelling the tank body wasn't particularly hard, it is mostly rectangular with minimal curves at some parts of the turret. The most challenging part of this project was the tracks, although it was not that visible in the renders, I tried my best to realistically replicate the model.</p>
           <img src={king_3} alt="" />
+          <figcaption>Blender King Tiger Model</figcaption>
           <p>I also made sure to include scratches/imperfections on the tank's surfaces to demonstrate the wear the tank has gone through battle, not to mention the harsh winter. ❄️</p>
           <img src={king_4} alt="" />
+          <figcaption>Tank Scratch Marks</figcaption>
         </div>
         <div>
           <h2>Rendering</h2>
@@ -66,6 +70,7 @@ function KingTiger() {
             <source src={king_V2} type='video/mp4' />
             Your browser does not support the video tag.
           </video>
+          <figcaption>Archived Animation</figcaption>
         </div>
       </div>
       <div className='mw700c'>

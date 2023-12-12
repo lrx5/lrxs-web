@@ -280,6 +280,9 @@
 .mb-64{
     margin-bottom: 40px;
 }
+.w50 img{
+    width: 50%;
+}
 .white-line{
     margin-bottom: 32px;
     height: 100px;

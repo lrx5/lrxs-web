@@ -25,13 +25,16 @@ function FriendsList() {
           <h2>Backstory</h2>
           <p>My love for Stardew Valley has been reborn after my friend decided to play with me for a couple of days. <i>Well technically, I gifted the game and was kinda forced to play with me.</i> 😅 But anyways, I have played this game before, and can say that I am pretty experienced when it comes to farming and forging bonds with the villagers.</p>
           <img src={friends_1} alt="" />
+          <figcaption>Stardew Valley @ Concerned Ape</figcaption>
         </div>
         <div>
           <h2>Game Heart Meters</h2>
           <p>I have played a lot of Harvest Moon back in the days and I love the relationship mechanic to the townspeople and the bachelors/bachelorettes, it really felt like you were building a real connection with them, with their own characters and personality.</p>
           <img src={friends_2} alt="" />
+          <figcaption>Harvest Moon @ Natsume Inc.</figcaption>
           <p>It's the same in Stardew Valley, you can talk to them or give them gifts to increase your relationship with them. <i>If they like the gift, that is.</i> The great thing here is you can track how well you are doing with each of the character's heart meters. Unlike in Harvest Moon, one can only see the hearts on bachelors/bachelorettes.</p>
           <img src={friends_3} alt="" />
+          <figcaption>Stardew Valley Heart Meters</figcaption>
           <p>After a while, I thought of a good idea of making my own heart meter list website featuring my own friends. A win-win situation where I increase my website building skills while showing my friends that I appreciate them and treasure them dearly.</p>
         </div>
         <div>

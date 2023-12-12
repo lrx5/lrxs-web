@@ -25,6 +25,7 @@ function MysteryWord() {
           <h2>Backstory</h2>
           <p>Here's the story of me playing Bookworm Adventures in the old days, while I enjoy playing the main game in creating the longest word possible, Moxie's mini game is a puzzle game where you use logic trying to unravel a 5-letter mystery word. I wanted to play this minigame on my mobile phone, and also maybe try to make a custom game mode where I can set the mystery word and let my friends guess to have some fun. 😁</p>
           <img src={mw_1} alt="" />
+          <figcaption>Bookworm Adventures @ PopCap Games</figcaption>
           <p>Mind you that this was completed before the reigning era of Wordle. I guess if I had web development skills back then I could have made it big time. 🏆</p>
         </div>
         <div>
@@ -42,12 +43,14 @@ function MysteryWord() {
           <p>You should also be able to remove the letter blocks when clicked again, you can then choose your desired letter blocks again if you have free slots in the row.</p>
           <p>Checking breaks down the word to individual letters and checks for matches on the mystery word. Then the appropriate color must be reflected on the board if any letters have matched the secret word.</p>
           <img src={mw_2} alt="" />
+          <figcaption>Spaghetti Code</figcaption>
           <p>Thinking of it now after 3 years, this is an easy game to program that could be made with simple arrays and for loops, but my beginner monkey brain insisted to make this game with an abomination of a spaghetti visual code instead. 💀 I mean, <i>if it works, it works</i>.</p>
         </div>
         <div>
           <h2>Music</h2>
           <p>Great! Now everything is working as intended, the game is actually playable now. It just needs some music and sound effects to improve the overall experience of the game. Music shouldn't be hard to make right? 😅</p>
           <img src={mw_3} alt="" />
+          <figcaption>Actual in-game music in Bosca Ceoil</figcaption>
           <p>This is where I overestimated myself having no musical instrument experience at all. I got some help with my good friend Kim who atleast have some musical practice in the real world. He helped me compose all of the music for the menus and the game.</p>
           <p>We used a free tool called <a href={"https://boscaceoil.net"} target='_blank'>Bosca Ceoil</a> to make our in game music, and honestly it's pretty cool to play around with even though I kinda suck at making some catchy beats. 🎵</p>
         </div>

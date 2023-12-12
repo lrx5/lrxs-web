@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import FooterLinks from './FooterLinks';
-import lrxs_1 from '../assets/lrxs/nana_website.png'
-import lrxs_2 from '../assets/lrxs/lrxs_allicons.png'
-import lrxs_3 from '../assets/lrxs/lrxs_3.png'
-import lrxs_4 from '../assets/lrxs/lrxs_2.png'
+import lrxs_1 from '../assets/lrxs/nana_website.png';
+import lrxs_2 from '../assets/lrxs/lrxs_allicons.png';
+import lrxs_3 from '../assets/lrxs/lrxs_3.png';
+import lrxs_4 from '../assets/lrxs/lrxs_2.png';
+import lrxs_5 from '../assets/lrxs/lrxs_4.png';
 import karzhyn_T from '../assets/thumbnails/karzhyn_t.png';
 import friends_T from '../assets/thumbnails/friendslistv_t.png';
 import '../ProjectsBlog.css';
@@ -33,7 +34,7 @@ function Lrxs() {
           <h2>Inspiration</h2>
           <p>I was heavily inspired by <a href="https://nanacodesign.com" target='_blank'>nanacodesign's</a> website in the creation of my portfolio. I also wanted to show my works in a documented, well-organized manner. This drove me to make my own version of it, with my style. I recommend checking her website out! I love her works, and I have learned a lot from reading her informative projects and case studies. ✨</p>
           <img src={lrxs_1} alt="" />
-          <figcaption>nanacodesign.com home page</figcaption>
+          <figcaption>Home page @ nanacodesign.com</figcaption>
         </div>
         <div>
           <h2>Development</h2>
@@ -56,9 +57,15 @@ function Lrxs() {
           <figcaption>Basically my momentum on that day</figcaption>
           <h2>Img imports not showing on deployment</h2>
           <p>It should've just taken a whole week maximum, but I had troubles in building and deployment because of the img source pathing. Yes the images work on the development server but not so much on the deployed website. I have tried to fix the bug for a whole day, visited various stack overflows, read the vite documentation, and almost asked for help.</p>
+          <div className='w50'>
+            <img src={lrxs_5} alt="" />
+          </div>
+          <figcaption>Failed builds</figcaption>
           <p>The solution was simple and overlooked, the fix was just to start at the directory of the file that needs the image imported.</p>
-          <img src={lrxs_3} alt="" />
-          <figcaption>file import pathing</figcaption>
+          <div className='w50'>
+            <img src={lrxs_3} alt="" />
+          </div>
+          <figcaption>File import pathing</figcaption>
           <p>For example a MyComponent inside a components folder needs to import a single file; my_image.png, the starting path would be at the components folder, which we would need to go up one folder with ".." - With this, we are now at the main src folder, we just need to go inside assets and images folder to access the file my_image.png. The working code would now then be:</p>
           <code>import my_image from '../assets/images/my_image.png'</code>
         </div>
