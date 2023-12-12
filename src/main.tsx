@@ -7,6 +7,7 @@ import NavMobile from './components/NavMobile.tsx';
 import HomePage from './components/HomePage.tsx';
 import About from './components/About.tsx';
 import Contact from './components/Contact.tsx';
+import Lrxs from './components/Lrxs.tsx';
 import KarzhynWebsite from './components/KarzhynWebsite.tsx';
 import FriendsList from './components/FriendsList.tsx';
 import Memory from './components/Memory.tsx';
@@ -33,6 +34,7 @@ ReactDOM.render(
         <Route path="/lrxs-web/" element={<HomePage />} />
         <Route path="/lrxs-web/about" element={<About />} />
         <Route path="/lrxs-web/contact" element={<Contact />} />
+        <Route path="/lrxs-web/the-lrxs" element={<Lrxs />} />
         <Route path="/lrxs-web/karzhyn-website" element={<KarzhynWebsite />} />
         <Route path="/lrxs-web/friends-list-website" element={<FriendsList />} />
         <Route path="/lrxs-web/create-with-clint-double-memory" element={<Memory />} />

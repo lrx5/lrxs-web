@@ -23,7 +23,7 @@ function FriendsList() {
         </div>
         <div>
           <h2>Backstory</h2>
-          <p>My love for Stardew Valley has been reborn after my fsriend decided to play with me for a couple of days. <i>Well technically, I gifted the game and was kinda forced to play with me.</i> 😅 But anyways, I have played this game before, and can say that I am pretty experienced when it comes to farming and forging bonds with the villagers.</p>
+          <p>My love for Stardew Valley has been reborn after my friend decided to play with me for a couple of days. <i>Well technically, I gifted the game and was kinda forced to play with me.</i> 😅 But anyways, I have played this game before, and can say that I am pretty experienced when it comes to farming and forging bonds with the villagers.</p>
           <img src={friends_1} alt="" />
         </div>
         <div>

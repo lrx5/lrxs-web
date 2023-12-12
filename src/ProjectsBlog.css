@@ -292,6 +292,10 @@
 .mw700cf li:hover img{
     filter: invert(65%) sepia(17%) saturate(5132%) hue-rotate(181deg) brightness(92%) contrast(89%);
 }
+figcaption{
+    font-size: 14px;
+    color: #ccc;
+}
 @media(prefers-reduced-motion){
     .hidden{
         transition: none;

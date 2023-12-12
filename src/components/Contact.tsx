@@ -32,7 +32,7 @@ const Contact = () => {
         <h3 className='hidden_y'>|</h3>
         <h3 className='hidden_y'>jk.nolasco.lrxs@gmail.com</h3>
         <h3 className='hidden_y'>|</h3>
-        <a href="https://drive.google.com/file/d/1pDoPQzhsf_I4lfWTF87cJfQogUm-mcGJ/view?usp=sharing" target='_blank'><h3 className='hidden_y'>Download CV</h3></a>
+        <a href="https://drive.google.com/file/d/11bDLeGhuAAIVsI8NtuJZkIDxQ62he0Pa/view?usp=sharing" target='_blank'><h3 className='hidden_y'>Download CV</h3></a>
         <FooterLinks />
       </div>
     </div>
