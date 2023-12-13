@@ -42,7 +42,7 @@ const Projects: React.FC = () => {
   return (
     <div className="projects-grid">
       {projects.map((project, index) => (
-        <Link key={project.id} to={`/lrxs-web/${project.file}`}>
+        <Link className='link-component' key={project.id} to={`/lrxs-web/${project.file}`}>
           <div className="project-card" style={{ animationDelay: `${index * 0.2}s` }}>
             <div>
               <img src={project.img} alt="" />

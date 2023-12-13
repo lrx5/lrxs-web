@@ -8,7 +8,10 @@ function HomePage() {
   return (
     <>
       <Hero />
-      <Projects />
+      <div className='projects-container'>
+        <Projects />
+      </div>
+
       <div className='flexrc'>
         <FooterLinks />
       </div>

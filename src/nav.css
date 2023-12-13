@@ -82,7 +82,7 @@ li a{
   z-index: 1000;
 }
 .navmobile-container{
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

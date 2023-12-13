@@ -48,26 +48,40 @@ function Lrxs() {
         </div>
         <div>
           <h2>Animation</h2>
-          <p>For the animations, I have watched <a href="https://www.youtube.com/watch?v=T33NN_pPeNI" target='_blank'>Beyond Fireship's</a> tutorial on making beautiful animations on scroll. The CSS and translate properties are not new to me, and I am fairly certain this is used in the movement of the text. What's new for me is the Intersection Observers. After researching this API, I found out that this would serve as a great data collection to see how much time the user spent viewing a certain content.</p>
+          <p>For the animations, I have watched <a href="https://www.youtube.com/watch?v=T33NN_pPeNI" target='_blank'>Beyond Fireship's</a> tutorial on making beautiful animations on scroll. I then converted the javascript code into typescript for React, repurposed and implemented it mostly on my About Page.</p>
+          <iframe
+          height={500}
+          style={{ width: "100%" }}
+          scrolling="no"
+          title="Scroll Animation (Beyond Fireship)"
+          src="https://codepen.io/LRXS/embed/mdvgYVq?default-tab=js%2Cresult&theme-id=dark"
+          frameBorder="no"
+          loading="lazy">
+          See the Pen &lt;a href="https://codepen.io/LRXS/pen/mdvgYVq"&gt; Scroll
+          Animation (Beyond Fireship)&lt;/a&gt; by LRXS (&lt;a
+          href="https://codepen.io/LRXS"&gt;@LRXS&lt;/a&gt;) on &lt;a
+          href="https://codepen.io"&gt;CodePen&lt;/a&gt;.
+          </iframe>
         </div>
         <div>
           <h2>Challenges</h2>
-          <p>Overall this project did not take that long. My momentum was at an all time high, developing this website in a quick efficient pace and nothing can stop me. Or so, I thought.</p>
-          <iframe src="https://giphy.com/embed/l2JdTgYZ7VG4EeBVe" width="480" height="366" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
+          <p>Overall this project did not take that long. My momentum in coding was at an all time high, finsihing this website in an efficient pace that felt like nothing can stop me. Or so, I thought.</p>
+          <div className='img50'>
+            <img src="https://media1.giphy.com/media/l2JdTgYZ7VG4EeBVe/giphy.gif?cid=ecf05e47jp9d07z32nefz39scyy3uv5j0bpdb3hh6z3v4es4&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="" />
+          </div>
           <figcaption>Basically my momentum on that day</figcaption>
           <h2>Img imports not showing on deployment</h2>
           <p>It should've just taken a whole week maximum, but I had troubles in building and deployment because of the img source pathing. Yes the images work on the development server but not so much on the deployed website. I have tried to fix the bug for a whole day, visited various stack overflows, read the vite documentation, and almost asked for help.</p>
           <div className='w50'>
             <img src={lrxs_5} alt="" />
           </div>
-          <figcaption>Failed builds</figcaption>
-          <p>The solution was simple and overlooked, the fix was just to start at the directory of the file that needs the image imported.</p>
+          <figcaption>6 of the 20+ failed builds</figcaption>
+          <p>The solution was simple and overlooked, the fix was just to start at the directory of the file that needs the image imported. I was so engrossed on the fact of putting everything on the public directory, along using the <code>new URL(url, import.meta.url)</code> method.</p>
           <div className='w50'>
             <img src={lrxs_3} alt="" />
           </div>
           <figcaption>File import pathing</figcaption>
-          <p>For example a MyComponent inside a components folder needs to import a single file; my_image.png, the starting path would be at the components folder, which we would need to go up one folder with ".." - With this, we are now at the main src folder, we just need to go inside assets and images folder to access the file my_image.png. The working code would now then be:</p>
-          <code>import my_image from '../assets/images/my_image.png'</code>
+          <p>For example a MyComponent inside a components folder needs to import a single file; my_image.png, the starting path would be at the components folder, which we would need to go up one folder with ".." - With this, we are now at the main src folder, we just need to go inside assets and images folder to access the file my_image.png. The working code would now then be: <code>import my_image from '../assets/images/my_image.png'</code></p>
         </div>
         <div className='mb-40'>
           <h2>Final Thoughts</h2>

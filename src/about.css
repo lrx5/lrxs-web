@@ -203,6 +203,10 @@
 .wave-container{
   width: auto;
 }
+.contact{
+  margin-top: 64px;
+  height: 100%;
+}
 @keyframes rgbColorSvg{
   0% {filter: invert(65%) sepia(17%) saturate(5132%) hue-rotate(181deg) brightness(92%) contrast(89%);}
   12.5% {filter: invert(45%) sepia(30%) saturate(1188%) hue-rotate(314deg) brightness(96%) contrast(94%);}
@@ -310,12 +314,13 @@
 }
 @media screen and (max-width: 800px) {
   .about h1{
-    margin-bottom: 64px;
+    margin-bottom: 16px;
     font-size: 64px;
     animation: rgbColorSvg 6s linear infinite;
   }
   .about h2{
-    margin-bottom: 64px;
+    margin-top: 0px;
+    margin-bottom: 8px;
     font-size: 32px;
   }
   .about h3{
@@ -352,6 +357,12 @@
     height: 70%;
     width: 70%;
   }
+  .gap-40{
+    gap: 0px;
+  }
+  .about .mt-64{
+    margin-top: 8px;
+  }
   @keyframes moveOnly{
     0% {
       top: 36px;
@@ -382,5 +393,67 @@
     align-items: center;
     gap: 30px;
     padding: 20px 0;
+  }
+}
+@media screen and (max-width: 425px) {
+  .wave{
+    position: absolute;
+    top: -15px;
+    left: 38px;
+    z-index: 10;
+    pointer-events: none;
+  }
+  @keyframes moveOnly{
+    0% {
+      top: 36px;
+      left: 151px;
+    }
+    25% {
+      top: 82px;
+      left: 196px;
+    }
+    50% {
+      top: 60px;
+      left: 245px;
+    }
+    75% {
+      top: 82px;
+      left: 196px;
+    }
+    100% {
+      top: 36px;
+      left: 151px;
+    }
+  }
+}
+@media screen and (max-width: 375px) {
+  .wave{
+    position: absolute;
+    top: -20px;
+    left: 34px;
+    z-index: 10;
+    pointer-events: none;
+  }
+  @keyframes moveOnly{
+    0% {
+      top: 34px;
+      left: 146px;
+    }
+    25% {
+      top: 80px;
+      left: 190px;
+    }
+    50% {
+      top: 60px;
+      left: 240px;
+    }
+    75% {
+      top: 80px;
+      left: 190px;
+    }
+    100% {
+      top: 34px;
+      left: 146px;
+    }
   }
 }

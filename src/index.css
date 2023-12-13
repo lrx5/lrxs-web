@@ -14,6 +14,9 @@
 
   overflow: auto;
 }
+html{
+  width: 100%;
+}
 #root {
   width: 100%;
   text-align: center;
@@ -34,7 +37,7 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
+  width: 100%;
 }
 
 h1 {
@@ -77,6 +80,13 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+@media screen and (max-width: 800px) {
+  h1{
+    margin-bottom: 64px;
+    font-size: 2.2em;
+    line-height: 1.1;
   }
 }
 

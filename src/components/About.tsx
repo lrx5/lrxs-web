@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import FooterLinks from './FooterLinks';
 import profile_img from '../assets/about/profile_img.png';
 import about_1 from '../assets/about/image v.png';
@@ -226,8 +227,8 @@ const About = () => {
         </div>
       </div>
       <div className="section">
-        <h2 className='hidden'>Got a gig for me?</h2>
-        <h3 className='hidden'>Contact Me</h3>
+        <h2 className='hidden'>Need help with something?</h2>
+        <Link to="/lrxs-web/contact" tabIndex={0}><h3 className='hidden'>Contact Me (Please!)</h3></Link>
         <FooterLinks />
         <div className='page-number'>
           <p>6/6</p>
