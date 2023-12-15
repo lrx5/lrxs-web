@@ -22,6 +22,7 @@ interface Project {
 }
 
 const Projects: React.FC = () => {
+  const isSmallScreen = window.innerWidth < 800;
   // Dummy data for project cards
   const projects: Project[] = [
     { id: 12, file: 'the-lrxs', title: 'LRXS Main ', description: 'React + Vite', img:lrxs_T},
@@ -43,7 +44,12 @@ const Projects: React.FC = () => {
     <div className="projects-grid">
       {projects.map((project, index) => (
         <Link className='link-component' key={project.id} to={`/lrxs-web/${project.file}`}>
-          <div className="project-card" style={{ animationDelay: `${index * 0.2}s` }}>
+          <div
+            className="project-card"
+            style={{
+              animationDelay: `${isSmallScreen ? '0s' : index * 0.2 + 's'}`,
+            }}
+          >
             <div>
               <img src={project.img} alt="" />
             </div>

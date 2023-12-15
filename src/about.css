@@ -363,6 +363,18 @@
   .about .mt-64{
     margin-top: 8px;
   }
+  .hidden{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transform: translateY(0);
+}
+.hidden_y{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transform: translateY(0);
+}
   @keyframes moveOnly{
     0% {
       top: 36px;
