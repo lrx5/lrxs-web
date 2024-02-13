@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import '../Projects.css';
 import lrxs_T from '../assets/thumbnails/lrxs_t.png';
+import controller_T from '../assets/thumbnails/controller_t.png';
 import karzhyn_T from '../assets/thumbnails/karzhyn_t.png';
 import friends_T from '../assets/thumbnails/friendslistv_t.png';
 import memory_T from '../assets/thumbnails/memory_t.png';
@@ -25,7 +26,8 @@ const Projects: React.FC = () => {
   const isSmallScreen = window.innerWidth < 800;
   // Dummy data for project cards
   const projects: Project[] = [
-    { id: 12, file: 'the-lrxs', title: 'LRXS Main ', description: 'React + Vite', img:lrxs_T},
+    { id: 13, file: 'controller-workflow', title: 'Controller Workflow', description: 'Blender', img:controller_T},
+    { id: 12, file: 'the-lrxs', title: 'LRXS Main', description: 'React + Vite', img:lrxs_T},
     { id: 11, file: 'karzhyn-website', title: 'Karzhyn Website', description: 'Bootstrap', img:karzhyn_T},
     { id: 10, file: 'friends-list-website', title: 'Friends List Website', description: 'Vanilla HTML', img:friends_T},
     { id: 9, file: 'create-with-clint-double-memory', title: 'Memory', description: 'Blender', img:memory_T},

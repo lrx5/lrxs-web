@@ -60,6 +60,18 @@
     width: 100%;
 }
 
+.flexrow{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.mw700 .img50{
+    width: 50%;
+    height: 50%;
+}
+
 @keyframes fadeIn {
     from {
       opacity: 0;
